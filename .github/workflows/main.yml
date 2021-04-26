@@ -35,4 +35,4 @@ jobs:
 
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build Sultan_Project_004_a ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build Sultan_Project_004_a.surge.sh ${{ secrets.SURGE_TOKEN }}
